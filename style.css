@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0pxs;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px grey;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(124, 122, 122);
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+}
+
+body {
+    padding-left: 5%;
+    padding-right: 2%;
+}
+
+#r {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    width: 98%;
+    height: 100vh;
+    background-color: white;
+    -webkit-box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+}
+
+#s {
+    width: 800px;
+    height: 90vh;
+    background-color: white;
+    position: absolute;
+    margin-top: -90vh;
+    overflow-y: scroll;
+    margin-left: 80px;
+    -webkit-box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -5px 7px 19px 0px rgba(0, 0, 0, 0.75);
+}
+
+#s .hmenu {
+    display: flex;
+}
+
+#s .hmenu a {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: x-small;
+    margin-top: 10px;
+    color: rgb(65, 65, 65);
+}
+
+#s .hmenu h1 {
+    font-size: x-small;
+    margin-top: 10px;
+    margin-left: 124px;
+    margin-right: 114px;
+    font-family: cursive;
+    color: rgb(65, 65, 65);
+}
+
+#s .hmenu .active {
+    border-bottom: 2px solid rgb(59, 59, 161);
+    margin-left: 275px;
+}
+
+.yellow {
+    background-color: rgb(252, 186, 98);
+    padding-left: 21rem;
+}
+
+.yellow h1 {
+    color: white;
+    font-size: large;
+    margin-top: 5rem;
+    font-family: cursive;
+    margin-left: 153px;
+}
+
+.yellow p {
+    font-size: small;
+    color: white;
+    margin-top: 10px;
+    font-family: cursive;
+    margin-left: 153px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 125px 1fr;
+}
+
+.content h2 {
+    grid-column: 1/3;
+    color: rgb(65, 65, 65);
+    text-align: center;
+    padding-top: 83px;
+    font-family: cursive;
+
+}
+
+
+.content .sub-content .feature {
+    display: grid;
+    grid-template-rows:  80px 80px 80px ;
+}
+.content .about_watch{
+    padding-left: 100px;
+}
+.content .p1watch {
+    margin: 10px;
+    margin-left: 107px;
+    margin-top: 66px;
+    margin-right: 0px;
+    width: 210px;
+    height: 210px;
+}
+
+.content .about_watch h1 {
+    margin-top: 74px;
+    font-family: cursive;
+    font-size: 30px;
+    padding-right: 53px;
+    color: rgb(65, 65, 65);
+}
+
+.content .about_watch p {
+    font-family: cursive;
+    font-size: x-small;
+    font-weight: 600;
+    padding-right: 62px;
+    color: rgb(65, 65, 65);
+    margin-top: 15px;
+}
+
+.content .about_watch button {
+    border: none;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 15px;
+    background-color: rgb(252, 186, 98);
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 9px 13px 2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 9px 13px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 9px 13px 2px rgba(0, 0, 0, 0.75);
+}
+.sub-content .feature .feature_card{
+    display: grid;
+    margin-top:10px ;
+}
+.sub-content .feature .feature_card h2{
+    padding-top: 0px;
+    text-align: start;
+    padding-left: 5px;
+    font-size: x-small;
+    font-family: cursive;
+
+}
+.sub-content .feature .feature_card .icon{
+    margin-left: 5px;
+}
+.sub-content .feature .feature_card p{
+    margin-left: 5px;
+    font-size: xx-small;
+    font-family: cursive;
+}
+.content .sub-content .watch_image2{
+    margin: 20px;
+    margin-left: 40px;
+}
+.content .sub-content {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr 80px;
+    grid-column: 1/3;
+}
